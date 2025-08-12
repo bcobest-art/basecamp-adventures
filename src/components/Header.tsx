@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
-import { Menu, X, Mountain } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import { Link, useLocation } from "react-router-dom";
 
 const Header = () => {
@@ -23,14 +23,12 @@ const Header = () => {
       <div className="container mx-auto px-4">
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-2 group">
-            <div className="p-2 bg-gradient-hero rounded-lg group-hover:shadow-nature transition-all duration-300">
-              <Mountain className="h-6 w-6 text-primary-foreground" />
-            </div>
-            <div>
-              <h1 className="text-xl font-bold text-primary">BaseCamp</h1>
-              <p className="text-xs text-muted-foreground">Outdoor</p>
-            </div>
+          <Link to="/" className="flex items-center group">
+            <img 
+              src="/lovable-uploads/7ae11fea-71dd-40fd-83c5-bef54244d9f1.png" 
+              alt="BaseCamp Outdoor Logo" 
+              className="h-12 w-auto group-hover:scale-105 transition-transform duration-300"
+            />
           </Link>
 
           {/* Desktop Navigation */}
