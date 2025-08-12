@@ -11,26 +11,26 @@ const Contact = () => {
     {
       icon: <Phone className="w-6 h-6" />,
       title: "Telepon & WhatsApp",
-      details: ["+62 812-3456-7890", "+62 856-7890-1234"],
+      details: ["+62 857-8116-0699"],
       description: "Tersedia 24/7 untuk emergency"
     },
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      details: ["info@basecampoutdoor.com", "booking@basecampoutdoor.com"],
+      details: ["bco.best@gmail.com", "booking@basecampoutdoor.com"],
       description: "Respon dalam 2-4 jam kerja"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Alamat Toko",
-      details: ["Jl. Outdoor Adventure No. 123", "Bandung, Jawa Barat 40123"],
-      description: "10 menit dari stasiun Bandung"
+      details: ["Jl. Pualam Raya No 37 Kemayoran Jakarta Pusat"],
+      description: "10 menit dari stasiun kemayoran"
     },
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Jam Operasional", 
       details: ["Senin - Minggu: 08:00 - 20:00 WIB", "Konsultasi 24/7 via WhatsApp"],
-      description: "Tutup hanya saat hari raya besar"
+      description: "Tutup hanya senin dan  saat hari raya besar"
     }
   ];
 
@@ -212,12 +212,12 @@ const Contact = () => {
                       <MapPin className="h-4 w-4 text-primary mt-0.5" />
                       <div>
                         <p className="font-medium">BaseCampOutdoor Store</p>
-                        <p className="text-muted-foreground">Jl. Outdoor Adventure No. 123, Bandung</p>
+                        <p className="text-muted-foreground">Jl. Pualam Raya No 37 Kemayoran Jakarta Pusat</p>
                       </div>
                     </div>
                     <div className="flex items-center space-x-2">
                       <Clock className="h-4 w-4 text-primary" />
-                      <span>Buka Senin-Minggu, 08:00-20:00 WIB</span>
+                      <span>Buka Selasa-Minggu, 13:00-23:00 WIB</span>
                     </div>
                   </div>
                 </CardContent>
