@@ -72,8 +72,8 @@ const Footer = () => {
               <div className="flex items-start space-x-3">
                 <MapPin className="h-4 w-4 text-primary-foreground/60 mt-1" />
                 <span className="text-primary-foreground/80">
-                  Jl. Outdoor Adventure No. 123<br />
-                  Bandung, Jawa Barat 40123
+                  Jl. Pualam Raya No 37 Kel. Sumur Batu<br />
+                  Kec. Kemayoran Kota. Jakarta Pusat
                 </span>
               </div>
             </div>
