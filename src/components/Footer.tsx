@@ -86,9 +86,7 @@ const Footer = () => {
             <p className="text-primary-foreground/60 text-sm">
               © 2024 BaseCampOutdoor. All rights reserved.
             </p>
-            <p className="text-primary-foreground/60 text-sm">
-              Jam Operasional: Senin - Minggu, 08:00 - 20:00 WIB
-            </p>
+            <p className="text-primary-foreground/60 text-sm">Jam Operasional: Selasa - Minggu, 13:00 - 23:00 WIB</p>
           </div>
         </div>
       </div>
