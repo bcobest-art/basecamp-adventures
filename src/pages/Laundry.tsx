@@ -10,7 +10,7 @@ const Laundry = () => {
       icon: <Droplets className="w-8 h-8" />,
       name: "Regular Washing",
       description: "Cuci standar untuk peralatan outdoor",
-      price: "15.000",
+      price: "30.000",
       duration: "2-3 hari",
       items: ["Tenda", "Sleeping bag", "Jaket", "Celana hiking"]
     },
@@ -27,7 +27,7 @@ const Laundry = () => {
       icon: <Sparkles className="w-8 h-8" />,
       name: "Deep Cleaning",
       description: "Pembersihan mendalam dengan treatment khusus",
-      price: "25.000",
+      price: "65.000",
       duration: "3-5 hari",
       items: ["Sleeping bag bulu", "Tenda kotor berat", "Tas carrier", "Sepatu hiking"]
     },
@@ -35,7 +35,7 @@ const Laundry = () => {
       icon: <Clock className="w-8 h-8" />,
       name: "Express Service",
       description: "Layanan cuci kilat untuk kebutuhan mendesak",
-      price: "30.000",
+      price: "20.000",
       duration: "1 hari",
       items: ["Semua jenis gear", "Pickup & delivery", "Priority handling"]
     }
