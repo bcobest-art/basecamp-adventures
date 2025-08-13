@@ -4,6 +4,7 @@
 
 **URL**: https://lovable.dev/projects/53f6d1b0-6b56-4b0b-a555-9517ee3b3ccd
 
+**URL PUBLIC** : https://basecamp-adventures.lovable.app/
 ## How can I edit this code?
 
 There are several ways of editing your application.
