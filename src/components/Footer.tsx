@@ -77,12 +77,17 @@ const Footer = () => {
                 <span className="text-primary-foreground/80">bco.best@gmail.coom</span>
               </div>
               <div className="flex items-start space-x-3">
-                <MapPin className="h-4 w-4 text-primary-foreground/60 mt-1" />
-                <span className="text-primary-foreground/80">
-                  Jl. Pualam Raya No 37 Kel. Sumur Batu<br />
-                  Kec. Kemayoran Kota. Jakarta Pusat
-                </span>
-              </div>
+              <MapPin className="h-4 w-4 text-primary-foreground/60 mt-1" />
+              <a 
+                href="https://maps.app.goo.gl/qYV9UW9YAhdU53PQ7" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary-foreground/80 hover:underline"
+              >
+                Jl. Pualam Raya No 37 Kel. Sumur Batu<br />
+                Kec. Kemayoran Kota. Jakarta Pusat
+              </a>
+            </div>
             </div>
           </div>
         </div>
