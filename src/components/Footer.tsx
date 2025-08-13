@@ -62,9 +62,16 @@ const Footer = () => {
             <h3 className="text-lg font-semibold">Hubungi Kami</h3>
             <div className="space-y-3 text-sm">
               <div className="flex items-center space-x-3">
-                <Phone className="h-4 w-4 text-primary-foreground/60" />
-                <span className="text-primary-foreground/80">+62 857-8116-0699</span>
-              </div>
+              <Phone className="h-4 w-4 text-primary-foreground/60" />
+              <a 
+                href="https://wa.me/6285781160699?text=Nama%20:%0AProduk%20:%20Rental,%20Laundry,%20Shop,%20Repair,%20Event%20(pilih%20salah%20satu)%0ATanggal%20:%0AKeterangan%20:" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="text-primary-foreground/80 hover:underline"
+              >
+                +62 857-8116-0699
+              </a>
+            </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-4 w-4 text-primary-foreground/60" />
                 <span className="text-primary-foreground/80">bco.best@gmail.coom</span>
