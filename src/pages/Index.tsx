@@ -27,7 +27,8 @@ const Index = () => {
       title: "Rental Gear",
       description: "Sewa perlengkapan outdoor berkualitas dengan harga terjangkau",
       link: "/rental",
-      features: ["Tenda & Sleeping Bag", "Peralatan Hiking", "Kompor & Matras", "Gear Rafting"]
+      features: ["Tenda dome Kap.4/5", "Carrier", "Sepatu Trekking",
+          "Sleeping Bag","Matras","Peralatan Hiking", "Kompor & Matras", "Gear Rafting"]
     },
     {
       icon: <ShoppingBag className="w-8 h-8" />,
