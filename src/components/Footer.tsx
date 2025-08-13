@@ -64,7 +64,7 @@ const Footer = () => {
               <div className="flex items-center space-x-3">
               <Phone className="h-4 w-4 text-primary-foreground/60" />
               <a 
-                href="https://wa.me/6285781160699?text=Halo...Haii...Admin%20%0ASayaa butuh bantuan ni...%ANama%20:%0AProduk%20:%201.Rental,%202.Laundry,%203.Shop,%204.Repair,%205.Event%20(pilih%20salah%20satu)%0ATanggal%20:%0AKeterangan%20:" 
+                href="https://wa.me/6285781160699?text=Halo...Haii...Admin%20%0ASayaa butuh bantuan ni...%0ANama%20:%0AProduk%20:%201.Rental,%202.Laundry,%203.Shop,%204.Repair,%205.Event%20(pilih%20salah%20satu)%0ATanggal%20:%0AKeterangan%20:" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="text-primary-foreground/80 hover:underline"
