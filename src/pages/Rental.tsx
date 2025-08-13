@@ -185,19 +185,19 @@ const Rental = () => {
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-primary-foreground text-xs font-bold">1</span>
                   </div>
-                  <p className="text-muted-foreground">Deposit 50% dari nilai barang sebagai jaminan</p>
+                  <p className="text-muted-foreground">Deposit 50% dari nilai barang sebagai jaminan & identitas asli KTP atau SIM</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-primary-foreground text-xs font-bold">2</span>
                   </div>
-                  <p className="text-muted-foreground">Minimal rental 2 hari, maksimal 14 hari</p>
+                  <p className="text-muted-foreground">Minimal rental 2 hari, maksimal 8 hari, contoh sewa tanggal 1,2,3 hitung 2 hari saja</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
                     <span className="text-primary-foreground text-xs font-bold">3</span>
                   </div>
-                  <p className="text-muted-foreground">Barang harus dikembalikan dalam kondisi bersih</p>
+                  <p className="text-muted-foreground">Jika dikembalikan kondisi rusak ada penambahan biaya perbaikan</p>
                 </div>
                 <div className="flex items-start space-x-3">
                   <div className="w-6 h-6 bg-primary rounded-full flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -209,11 +209,11 @@ const Rental = () => {
             </div>
             <div className="bg-gradient-hero text-primary-foreground p-8 rounded-lg">
               <h3 className="text-2xl font-bold mb-4">Paket Hemat</h3>
-              <p className="mb-4">Rental 3 hari atau lebih, dapatkan diskon 15%!</p>
+              <p className="mb-4">Rental 5 hari atau lebih, dapatkan diskon 20%!</p>
               <ul className="space-y-2 mb-6">
                 <li>✓ Konsultasi gratis pemilihan gear</li>
                 <li>✓ Tutorial penggunaan</li>
-                <li>✓ Antar jemput gratis</li>
+                <li>✓ Antar jemput gratis dalam radius 10km</li>
                 <li>✓ Cleaning service</li>
               </ul>
               <Button variant="secondary" size="lg" className="w-full">
