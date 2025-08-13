@@ -55,6 +55,28 @@ const Rental = () => {
       image: "/placeholder.svg",
       features: ["Sistem bantalan", "Rain cover", "Multiple pockets"],
       available: false
+    },
+    {
+      id: 5,
+      name: "Lamp",
+      brand: "All brand",
+      price: "10.000",
+      period: "per hari",
+      rating: 4.7,
+      image: "/placeholder.svg",
+      features: ["LED", "ringan",],
+      available: false
+    },
+    {
+      id: 6,
+      name: "Kompor portable",
+      brand: "All brand",
+      price: "10.000",
+      period: "per hari",
+      rating: 4.9,
+      image: "/placeholder.svg",
+      features: ["portable", "Ringan"],
+      available: false
     }
   ];
 
