@@ -26,8 +26,8 @@ const Rental = () => {
     {
       id: 2,
       name: "Sleeping Bag -5°C",
-      brand: "Mountain Hardwear",
-      price: "35.000",
+      brand: "Polar",
+      price: "15.000",
       period: "per hari",
       rating: 4.9,
       image: "/placeholder.svg",
@@ -37,8 +37,19 @@ const Rental = () => {
     {
       id: 3,
       name: "Carrier 60L",
-      brand: "Deuter",
-      price: "40.000",
+      brand: "All brand",
+      price: "30.000",
+      period: "per hari",
+      rating: 4.7,
+      image: "/placeholder.svg",
+      features: ["Sistem bantalan", "Rain cover", "Multiple pockets"],
+      available: false
+    },
+    {
+      id: 4,
+      name: "Sepatu Treeking",
+      brand: "All brand",
+      price: "30.000",
       period: "per hari",
       rating: 4.7,
       image: "/placeholder.svg",
