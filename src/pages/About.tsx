@@ -37,21 +37,21 @@ const About = () => {
 
   const team = [
     {
-      name: "Andi Prasetyo",
+      name: "PaddlePedaw",
       role: "Founder & CEO",
       experience: "15 tahun",
       specialty: "Mountain Guide, Safety Instructor",
       image: "/placeholder.svg"
     },
     {
-      name: "Sari Indrawati", 
+      name: "Aprillilah", 
       role: "Operations Manager",
       experience: "12 tahun",
       specialty: "Event Planning, Customer Relations",
       image: "/placeholder.svg"
     },
     {
-      name: "Budi Santoso",
+      name: "IpanMargopan",
       role: "Lead Guide",
       experience: "10 tahun", 
       specialty: "Climbing, Rafting Instructor",

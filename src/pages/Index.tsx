@@ -103,15 +103,36 @@ const Index = () => {
             Partner terpercaya untuk semua kebutuhan outdoor adventure Anda. 
             Rental gear, shop online, hingga event organizer.
           </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">
-            <Button size="lg" className="bg-gradient-hero hover:shadow-adventure text-lg px-8 py-6">
-              <Mountain className="mr-2 h-5 w-5" />
-              Mulai Petualangan
-            </Button>
-            <Button size="lg" variant="outline" className="border-white/30 text-white hover:bg-white hover:text-primary text-lg px-8 py-6">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-scale-in">          
+            <Button
+              asChild
+              size="lg"
+              className="bg-gradient-hero hover:shadow-adventure text-lg px-8 py-6"
+            >
+              <a
+                href="https://maps.app.goo.gl/qYV9UW9YAhdU53PQ7"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <Mountain className="mr-2 h-5 w-5" />
+                Mulai Petualangan
+              </a>
+            </Button>            
+            <Button 
+            asChild
+            size="lg" 
+            variant="outline" 
+            className="border-white/30 text-white hover:bg-white hover:text-primary text-lg px-8 py-6"
+          >
+            <a 
+              href="https://wa.me/6285781160699?text=Halo...Haii...Admin%20%0ASayaa butuh bantuan ni...%0ANama%20:%0AProduk%20:%0A(pilih%20salah%20satu)%0A1.Rental,%202.Laundry,%203.Shop,%204.Repair,%205.Event%20%0ATanggal%20:%0AKeterangan%20:"
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <Phone className="mr-2 h-5 w-5" />
               Hubungi Kami
-            </Button>
+            </a>
+          </Button>
           </div>
         </div>
 
@@ -253,10 +274,20 @@ const Index = () => {
             Hubungi kami sekarang untuk konsultasi gratis dan dapatkan penawaran terbaik
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Button size="lg" variant="secondary" className="text-lg px-8 py-6">
+
+            <Button 
+            asChild size="lg" variant="secondary" 
+            className="text-lg px-8 py-6"
+          >
+            <a 
+              href="https://wa.me/6285781160699?text=Halo...Haii...Admin%20%0ASayaa butuh bantuan ni...%0ANama%20:%0AProduk%20:%0A(pilih%20salah%20satu)%0A1.Rental,%202.Laundry,%203.Shop,%204.Repair,%205.Event%20%0ATanggal%20:%0AKeterangan%20:" 
+              target="_blank" 
+              rel="noopener noreferrer"
+            >
               <Phone className="mr-2 h-5 w-5" />
               Hubungi WhatsApp
-            </Button>
+            </a>
+          </Button>
             <Button size="lg" variant="outline" className="border-white text-white hover:bg-white hover:text-primary text-lg px-8 py-6">
               Lihat Semua Layanan
               <ArrowRight className="ml-2 h-5 w-5" />
