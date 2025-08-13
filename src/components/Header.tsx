@@ -9,11 +9,11 @@ const Header = () => {
 
   const navigation = [
     { name: "Beranda", href: "/" },
-    { name: "Rental", href: "/rental" },
-    { name: "Shop", href: "/shop" },
-    { name: "Laundry", href: "/laundry" },
-    { name: "Repair", href: "/repair" },
-    { name: "Event Organizer", href: "/event-organizer" },
+    { name: "1. Rental", href: "/rental" },
+    { name: "2. Shop", href: "/shop" },
+    { name: "3. Laundry", href: "/laundry" },
+    { name: "4. Repair", href: "/repair" },
+    { name: "5. Event Organizer", href: "/event-organizer" },
     { name: "Tentang Kami", href: "/about" },
     { name: "Kontak", href: "/contact" },
   ];
