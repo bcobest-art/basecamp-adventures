@@ -45,17 +45,17 @@ const Rental = () => {
       features: ["Sistem bantalan", "Rain cover", "Multiple pockets"],
       available: false
     },
-    {
-      id: 4,
-      name: "Sepatu Treeking",
-      brand: "All brand",
-      price: "30.000",
-      period: "per hari",
-      rating: 4.7,
-      image: "/placeholder.svg",
-      features: ["Sistem bantalan", "Rain cover", "Multiple pockets"],
-      available: false
-    }
+    // {
+    //   id: 4,
+    //   name: "Sepatu Treeking",
+    //   brand: "All brand",
+    //   price: "30.000",
+    //   period: "per hari",
+    //   rating: 4.7,
+    //   image: "/placeholder.svg",
+    //   features: ["Sistem bantalan", "Rain cover", "Multiple pockets"],
+    //   available: false
+    // }
   ];
 
   return (
