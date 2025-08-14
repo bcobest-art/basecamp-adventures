@@ -50,12 +50,18 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden lg:block">
-            <Button 
-              variant="default" 
-              className="bg-gradient-hero hover:shadow-nature transition-all duration-300"
+            <a
+              href="https://wa.me/6285781160699?text=Halo...Haii...Admin%20%0ASayaa%20butuh%20bantuan%20ni...%0ANama%20:%0AProduk%20:%0A(pilih%20salah%20satu)%0A1.Rental,%202.Laundry,%203.Shop,%204.Repair,%205.Event%20%0ATanggal%20:%0AKeterangan%20:"
+              target="_blank"
+              rel="noopener noreferrer"
             >
-              Booking Sekarang
-            </Button>
+              <Button 
+                variant="default" 
+                className="w-full bg-gradient-hero hover:shadow-nature transition-all duration-300"
+              >
+                Booking Sekarang
+              </Button>
+            </a>                
           </div>
 
           {/* Mobile menu button */}

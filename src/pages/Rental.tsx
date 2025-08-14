@@ -90,10 +90,17 @@ const Rental = () => {
             Sewa perlengkapan outdoor berkualitas tinggi dengan harga terjangkau. 
             Semua gear telah diperiksa dan dalam kondisi prima.
           </p>
-          <Button size="lg" variant="secondary" className="text-lg px-8 py-4">
-            <Calendar className="mr-2 h-5 w-5" />
-            Booking Sekarang
-          </Button>
+          <a href="https://wa.me/6285781160699?text=Halo...Haii...Admin%20%0ASayaa%20butuh%20bantuan%20ni...%0ANama%20:%0AProduk%20:%0A(pilih%20salah%20satu)%0A1.Rental,%202.Laundry,%203.Shop,%204.Repair,%205.Event%20%0ATanggal%20:%0AKeterangan%20:" 
+            target="_blank" 
+            rel="noopener noreferrer" > 
+            <Button size="lg" 
+              variant="secondary" 
+              className="text-lg px-8 py-4"> 
+              <Calendar 
+                className="mr-2 h-5 w-5" /> 
+                Booking Sekarang 
+                </Button>
+          </a>
         </div>
       </section>
 
