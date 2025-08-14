@@ -223,9 +223,13 @@ const Rental = () => {
                 <li>✓ Antar jemput gratis dalam radius 10km</li>
                 <li>✓ Cleaning service</li>
               </ul>
-              <Button variant="secondary" size="lg" className="w-full">
+              <a href="https://wa.me/6285781160699?text=Halo...Haii...Admin%20%0ASayaa%20Tanya%20paket%20Rental%20ni...%0ANama%20:%0AProduk%20:%0A1.Rental%0ATanggal%20:%0AKeterangan%20:Paket%20Hemat%20ada%20apa%20saja" 
+                target="_blank" 
+                rel="noopener noreferrer" >              
+                <Button variant="secondary" size="lg" className="w-full">
                 Tanya Paket Hemat
               </Button>
+              </a>
             </div>
           </div>
         </div>

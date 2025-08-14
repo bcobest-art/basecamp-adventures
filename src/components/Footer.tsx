@@ -21,9 +21,14 @@ const Footer = () => {
               Dari rental gear hingga event organizer, kami siap menemani setiap langkah perjalanan Anda.
             </p>
             <div className="flex space-x-3">
-              <div className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors cursor-pointer">
+              <a
+                href="https://www.instagram.com/bco.basecampoutdoor/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors cursor-pointer"
+              >
                 <Instagram className="h-4 w-4" />
-              </div>
+              </a>
               <div className="p-2 bg-primary-foreground/10 rounded-lg hover:bg-primary-foreground/20 transition-colors cursor-pointer">
                 <Facebook className="h-4 w-4" />
               </div>
