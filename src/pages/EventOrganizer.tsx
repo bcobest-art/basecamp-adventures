@@ -61,7 +61,7 @@ const EventOrganizer = () => {
         {
           name: "Rafting Sungai Citarik",
           duration: "1D",
-          price: "165.000",
+          price: "365.000",
           participants: "Min 6 orang", 
           includes: ["Safety gear", "Guide", "Lunch", "Transport"],
           rating: 4.6,
@@ -70,7 +70,7 @@ const EventOrganizer = () => {
         {
           name: "Rafting + Camping",
           duration: "2D1N",
-          price: "385.000",
+          price: "585.000",
           participants: "Min 8 orang",
           includes: ["Rafting", "Camping", "All meals", "Bonfire"],
           rating: 4.8,
@@ -85,19 +85,19 @@ const EventOrganizer = () => {
       title: "Team Building",
       description: "Program khusus untuk meningkatkan kerjasama tim",
       features: ["Custom program", "Professional facilitator", "Team games", "Reflection session"],
-      price: "125.000/person"
+      price: "155.000/person"
     },
     {
       title: "Corporate Outing",
       description: "Paket lengkap untuk acara perusahaan",
       features: ["Event planning", "Venue booking", "Catering", "Transportation"],
-      price: "200.000/person"
+      price: "400.000/person"
     },
     {
       title: "Leadership Training",
       description: "Outdoor training untuk pengembangan leadership",
       features: ["Outdoor challenges", "Expert trainer", "Leadership assessment", "Certificate"],
-      price: "350.000/person"
+      price: "550.000/person"
     }
   ];
 
