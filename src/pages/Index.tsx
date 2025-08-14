@@ -64,7 +64,7 @@ const Index = () => {
     {
       name: "Ahmad Ridwan",
       role: "Pecinta Hiking",
-      rating: 5,
+      rating: 4,
       comment: "Gear rental yang lengkap dan berkualitas. Staff sangat membantu dalam memberikan rekomendasi sesuai kebutuhan trip saya."
     },
     {
@@ -74,10 +74,46 @@ const Index = () => {
       comment: "Event organizer terbaik! Trip ke Gunung Bromo yang diorganisir BaseCamp sangat berkesan dan aman."
     },
     {
-      name: "Team PT. Maju Bersama",
+      name: "Team PT. Daun Hijau",
       role: "Corporate",
       rating: 5,
-      comment: "Team building rafting sangat seru dan professional. Semua equipment safety lengkap dan berkualitas."
+      comment: "Team building rafting sangat seru dan professional. Semua equipment safety lengkap dan berkualitas kao rating ada bintang 7 sumbit bintang 7 deh."
+    },
+    {
+      name: "Ridwan Iliyas",
+      role: "Outdoor Entusiast",
+      rating: 4,
+      comment: "Kualiatas barang yang memuasakan harga bersahabat."
+    },
+    {
+      name: "Adinda Thomas",
+      role: "Artist Sport Activity",
+      rating: 5,
+      comment: "Trip yang menyenangkan seru berkegitan dengan TIM dan crew dari base camp outdoor."
+    },
+    {
+      name: "Team PT. Sanubanyu",
+      role: "Corporate",
+      rating: 5,
+      comment: "Outbound yang keren dan selalu ada cerita mengesankan."
+    },
+    {
+      name: "bocil syanusi",
+      role: "Marketer",
+      rating: 5,
+      comment: "membutuhkan alat jumlah banyak sangat dipersiapkan dari jumlah dan kondisi baik selalu tepat memilih kerjasama dengan BCO."
+    },
+    {
+      name: "Djajang Suhendar",
+      role: "Organizer Komunitas",
+      rating: 6,
+      comment: "abdi percaya pisan sama ini teh tak mengecewakan."
+    },
+    {
+      name: "Team PT. Briliant E-commerce Berjaya",
+      role: "Corporate",
+      rating: 7,
+      comment: "Rafting di sungai ciciatih grade IV sangat seru dan professional pengalman tak pernah dilupakan asik seru puas."
     }
   ];
 
@@ -260,7 +296,7 @@ const Index = () => {
                 <CardContent>
                   <p className="text-muted-foreground italic">"{testimonial.comment}"</p>
                 </CardContent>
-              </Card>
+              </Card>              
             ))}
           </div>
         </div>
