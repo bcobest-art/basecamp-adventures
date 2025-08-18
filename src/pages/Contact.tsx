@@ -175,14 +175,14 @@ const Contact = () => {
                 <CardContent>
                   <div className="space-y-4">
                     <p className="text-sm opacity-90">
-                      Tim customer service kami online 24/7 untuk menjawab pertanyaan 
+                      Tim customer service kami online 24/6 untuk menjawab pertanyaan 
                       dan membantu kebutuhan urgent Anda.
                     </p>
                     
                     <div className="space-y-2">
                       <Button variant="secondary" size="lg" className="w-full">
                         <MessageCircle className="mr-2 h-5 w-5" />
-                        Chat Sales: +62 812-3456-7890
+                        Chat Sales: +62 856-7890-1234
                       </Button>
                       <Button variant="outline" size="lg" className="w-full border-white text-white hover:bg-white hover:text-primary">
                         <Phone className="mr-2 h-5 w-5" />
