@@ -46,7 +46,9 @@ const Contact = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-forest text-primary-foreground">
+      <section className="py-20 bg-gradient-forest text-primary-foreground"
+      style={{ backgroundImage: "url('/assets/nicee.jpg')" }}
+      >
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Hubungi Kami</h1>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
@@ -201,11 +203,18 @@ const Contact = () => {
               <Card>
                 <CardHeader>
                   <CardTitle>Lokasi Toko</CardTitle>
-                  <CardDescription>Kunjungi showroom kami untuk melihat langsung produk</CardDescription>
+                  <CardDescription>Kunjungi STORE kami untuk melihat langsung produk</CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <div className="aspect-video bg-muted rounded-lg mb-4 flex items-center justify-center">
-                    <p className="text-muted-foreground">Google Maps akan ditampilkan di sini</p>
+                  <div className="aspect-video bg-muted rounded-lg mb-4 overflow-hidden">
+                    <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.649573728704!2d106.8654688!3d-6.1588723!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69f50a33269b9f%3A0x334d61ed63185c42!2sBASE%20CAMP%20OUTDOOR!5e0!3m2!1sid!2sid!4v1692000000000!5m2!1sid!2sid"
+                    width="100%"
+                    height="100%"
+                    allowFullScreen   // ✅ benar
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  />  
                   </div>
                   <div className="space-y-2 text-sm">
                     <div className="flex items-start space-x-2">
