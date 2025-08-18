@@ -29,8 +29,8 @@ const Contact = () => {
     {
       icon: <Clock className="w-6 h-6" />,
       title: "Jam Operasional", 
-      details: ["Senin - Minggu: 08:00 - 20:00 WIB", "Konsultasi 24/7 via WhatsApp"],
-      description: "Tutup hanya senin dan  saat hari raya besar"
+      details: ["Selasa - Minggu: 13:00 - 23:00 WIB", "Konsultasi 24/6 via WhatsApp"],
+      description: "Tutup hanya senin"
     }
   ];
 
