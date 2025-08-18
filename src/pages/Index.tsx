@@ -17,8 +17,8 @@ import {
   Waves
 } from "lucide-react";
 import heroMountain from "@/assets/hero-mountain.jpg";
-import campingScene from "@/assets/camping-scene.jpg";
-import outdoorGear from "@/assets/outdoor-gear.jpg";
+import campingScene from "@/assets/background.jpg";
+import outdoorGear from "@/assets/TrekkingSentul.jpg";
 
 const Index = () => {
   const services = [
@@ -261,12 +261,12 @@ const Index = () => {
               <img 
                 src={campingScene} 
                 alt="Camping Scene" 
-                className="rounded-lg shadow-nature h-48 w-full object-cover"
+                className="rounded-lg shadow-nature h-65 w-full object-cover"
               />
               <img 
                 src={outdoorGear} 
                 alt="Outdoor Gear" 
-                className="rounded-lg shadow-nature h-48 w-full object-cover mt-8"
+                className="rounded-lg shadow-nature h-65 w-full object-cover mt-8"
               />
             </div>
           </div>

@@ -2,7 +2,18 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Tent, Backpack, Compass, Calendar, Star } from "lucide-react";
+import { Tent, Backpack, Compass, Calendar, Star } 
+from "lucide-react";
+import Rentalpic from "@/assets/tendaki2.jpg";
+import SBpic from "@/assets/SB.jpg";
+import Carierpic from "@/assets/carrier.jpg";
+import Sptrekking from "@/assets/sptreeking.jpg";
+import lamppic from "@/assets/lamp.jpg";
+import komporpic from "@/assets/kompor.jpg";
+import matraspic from "@/assets/matrass.jpg";
+import cookingsetpic from "@/assets/cookingset.jpg";
+import kursimejapic from "@/assets/kursimeja.jpg";
+
 
 const Rental = () => {
   const categories = [
@@ -15,22 +26,22 @@ const Rental = () => {
     {
       id: 1,
       name: "Tenda Dome 4 Orang",
-      brand: "Rei Co-op",
+      brand: "Tendaki Borneo Double Layer",
       price: "50.000",
       period: "per hari",
       rating: 4.8,
-      image: "/placeholder.svg",
+      image: Rentalpic,
       features: ["Waterproof 3000mm", "Setup 5 menit", "Ventilasi double"],
       available: true
     },
     {
       id: 2,
-      name: "Sleeping Bag -5°C",
+      name: "Sleeping Bag -1°C until 5°C",
       brand: "Polar",
       price: "15.000",
       period: "per hari",
       rating: 4.9,
-      image: "/placeholder.svg",
+      image: SBpic,
       features: ["Down filling", "Comfort -5°C", "Ultra ringan"],
       available: true
     },
@@ -41,9 +52,9 @@ const Rental = () => {
       price: "30.000",
       period: "per hari",
       rating: 4.7,
-      image: "/placeholder.svg",
+      image: Carierpic,
       features: ["Sistem bantalan", "Rain cover", "Multiple pockets"],
-      available: false
+      available: true
     },
     {
       id: 4,
@@ -52,9 +63,9 @@ const Rental = () => {
       price: "30.000",
       period: "per hari",
       rating: 4.7,
-      image: "/placeholder.svg",
+      image: Sptrekking,
       features: ["Sistem bantalan", "Rain cover", "Multiple pockets"],
-      available: false
+      available: true
     },
     {
       id: 5,
@@ -63,9 +74,9 @@ const Rental = () => {
       price: "10.000",
       period: "per hari",
       rating: 4.7,
-      image: "/placeholder.svg",
+      image: lamppic,
       features: ["LED", "ringan",],
-      available: false
+      available: true
     },
     {
       id: 6,
@@ -74,9 +85,42 @@ const Rental = () => {
       price: "10.000",
       period: "per hari",
       rating: 4.9,
-      image: "/placeholder.svg",
+      image: komporpic,
       features: ["portable", "Ringan"],
-      available: false
+      available: true
+    },
+    {
+      id: 7,
+      name: "Matras Spons",
+      brand: "All brand",
+      price: "5.000",
+      period: "per hari",
+      rating: 4.7,
+      image: matraspic,
+      features: ["Empuk", "ringan", "nyaman"],
+      available: true
+    },
+    {
+      id: 8,
+      name: "Cooking set",
+      brand: "Alat masak",
+      price: "15.000",
+      period: "per hari",
+      rating: 4.7,
+      image: cookingsetpic,
+      features: ["Anti lengket"],
+      available: true
+    },
+    {
+      id: 9,
+      name: "Kursi meja portable",
+      brand: "All brand",
+      price: "40.000",
+      period: "per hari",
+      rating: 4.9,
+      image: kursimejapic,
+      features: ["portable", "Ringan"],
+      available: true
     }
   ];
 
