@@ -115,7 +115,7 @@ const Rental = () => {
       id: 9,
       name: "Kursi meja portable",
       brand: "All brand",
-      price: "40.000",
+      price: "50.000",
       period: "per hari",
       rating: 4.9,
       image: kursimejapic,
@@ -127,10 +127,15 @@ const Rental = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-mountain text-primary-foreground">
+      <section className="py-20 bg-gradient-mountain text-primary-foreground" 
+        style={{ backgroundImage: "url('/assets/toko2.jpg')" }}
+      >
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6">Rental Gear Outdoor</h1>
-          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+        
+          <h1 className="text-5xl font-bold mb-6 text-white drop-shadow-[2px_2px_2px_rgba(7,6,2,2.6)]">
+          Rental Gear Outdoor
+        </h1>
+          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto text-white drop-shadow-[1px_2px_2px_rgba(7,6,2,2.6)]">
             Sewa perlengkapan outdoor berkualitas tinggi dengan harga terjangkau. 
             Semua gear telah diperiksa dan dalam kondisi prima.
           </p>
