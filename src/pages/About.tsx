@@ -2,7 +2,12 @@ import Layout from "@/components/Layout";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
-import { Mountain, Users, Award, Target, Heart, Shield } from "lucide-react";
+import { Mountain, Users, Award, Target, Heart, Shield } 
+
+from "lucide-react";
+import ipan from "@/assets/ipan.jpg";
+import ilal from "@/assets/ilal.jpg";
+import padd from "@/assets/padd.jpg";
 
 const About = () => {
   const stats = [
@@ -41,21 +46,21 @@ const About = () => {
       role: "Founder & CEO",
       experience: "15 tahun",
       specialty: "Mountain Guide, Safety Instructor",
-      image: "/placeholder.svg"
+      image: padd
     },
     {
       name: "Aprillilah", 
       role: "Operations Manager",
       experience: "12 tahun",
       specialty: "Event Planning, Customer Relations",
-      image: "/placeholder.svg"
+      image: ilal
     },
     {
       name: "IpanMargopan",
       role: "Lead Guide",
       experience: "10 tahun", 
       specialty: "Climbing, Rafting Instructor",
-      image: "/placeholder.svg"
+      image: ipan
     }
   ];
 
