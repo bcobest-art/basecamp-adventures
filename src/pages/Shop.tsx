@@ -55,10 +55,12 @@ const Shop = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-forest text-primary-foreground">
+      <section className="py-20 bg-gradient-forest text-primary-foreground"
+      style={{ backgroundImage: "url('/assets/edelweiss.jpg')" }}
+      >
         <div className="container mx-auto px-4 text-center">
-          <h1 className="text-5xl font-bold mb-6">Shop Outdoor Gear</h1>
-          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">
+          <h1 className="text-5xl font-bold mb-6 text-white drop-shadow-[2px_2px_2px_rgba(7,6,2,2.6)]">Shop Outdoor Gear</h1>
+          <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto text-white drop-shadow-[1px_1px_1px_rgba(7,7,7,7.7)]">
             Koleksi lengkap perlengkapan outdoor dari brand ternama dunia. 
             Garansi resmi dan harga terbaik.
           </p>

@@ -72,7 +72,9 @@ const Laundry = () => {
   return (
     <Layout>
       {/* Hero Section */}
-      <section className="py-20 bg-gradient-to-br from-nature-blue to-accent text-primary-foreground">
+      <section className="py-20 bg-gradient-to-br from-nature-blue to-accent text-primary-foreground"
+      style={{ backgroundImage: "url('/assets/laund.jpg')" }} 
+      >
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-5xl font-bold mb-6">Laundry & Care Service</h1>
           <p className="text-xl mb-8 opacity-90 max-w-2xl mx-auto">

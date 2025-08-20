@@ -128,7 +128,7 @@ const Rental = () => {
     <Layout>
       {/* Hero Section */}
       <section className="py-20 bg-gradient-mountain text-primary-foreground" 
-        style={{ backgroundImage: "url('/assets/toko2.jpg')" }}
+        style={{ backgroundImage: "url('/assets/tent.jpg')" }} 
       >
         <div className="container mx-auto px-4 text-center">
         
