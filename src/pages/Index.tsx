@@ -25,7 +25,7 @@ const Index = () => {
     {
       icon: <Tent className="w-8 h-8" />,
       title: "Rental Gear",
-      description: "Sewa perlengkapan outdoor berkualitas dengan harga terjangkau",
+      description: "Sewa perlengkapan outdoor berkualitas dengan harga terjangkau, [Sewa alat camping Jakarta]",
       link: "/rental",
       features: ["Tenda dome Kap.4/5", "Carrier", "Sepatu Trekking",
           "Sleeping Bag","Matras","Peralatan Hiking", "Kompor & Matras", "Gear Rafting"]
@@ -35,21 +35,32 @@ const Index = () => {
       title: "Shop Online",
       description: "Belanja perlengkapan outdoor original dengan garansi resmi",
       link: "/shop",
-      features: ["Sepatu & Jaket Hiking", "Tas Carrier", "Peralatan Climbing", "Aksesoris Outdoor"]
+      features: ["Sepatu & Jaket Hiking", "Tas Carrier", "Peralatan Climbing", "Aksesoris Outdoor"
+        , "Arung Jeram", "Alat-alat Camping", "Alat Masak", "Kacamata"
+      ]
     },
     {
       icon: <Droplets className="w-8 h-8" />,
       title: "Laundry & Care",
-      description: "Layanan cuci dan perawatan khusus perlengkapan outdoor",
+      description: "Layanan cuci dan perawatan khusus perlengkapan outdoor, [Laundry alat camping] ",
       link: "/laundry",
-      features: ["Waterproof Care", "Sleeping Bag Cleaning", "Tenda Maintenance", "Express Service"]
+      features: ["Waterproof Care", "Sleeping Bag Cleaning", "Tenda Maintenance", "Express Service"
+        , "Laundry Tenda", "Laundry Sepatu", "Laundry Matras", "Laundry Terpal", "Laundry Carrier"
+      ]
     },
     {
       icon: <Wrench className="w-8 h-8" />,
       title: "Repair Service",
-      description: "Perbaikan profesional untuk semua jenis gear outdoor",
+      description: "Perbaikan profesional untuk semua jenis gear outdoor, [Repair/Perbaikan alat camping Jakarta]",
       link: "/repair",
       features: ["Jahit Ulang Tenda", "Perbaikan Resleting", "Patching & Waterproofing", "Garansi Hasil"]
+    },
+    {
+      icon: <Users className="w-8 h-8" />,
+      title: "Event Organizer",
+      description: "Paket trip dan event outdoor untuk semua kalangan",
+      link: "/event-organizer",
+      features: ["Hiking & Camping Trip", "Rafting Adventure", "Team Building", "Corporate Outing"]
     },
     {
       icon: <Users className="w-8 h-8" />,
@@ -178,7 +189,7 @@ const Index = () => {
             <TreePine className="h-6 w-6 text-white" />
           </div>
         </div>
-        <div className="absolute top-32 right-16 animate-float" style={{animationDelay: '1s'}}>
+        <div className="absolute top-32 right-16 animate-float" style={{animationDelay: '10s'}}>
           <div className="p-3 bg-white/10 backdrop-blur-md rounded-full">
             <Waves className="h-6 w-6 text-white" />
           </div>
