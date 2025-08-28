@@ -125,14 +125,14 @@ const About = () => {
             </div>
             <div className="relative">
               <img 
-                src="/placeholder.svg" 
+                src="/gede.jpeg" 
                 alt="Our Story" 
                 className="rounded-lg shadow-nature w-full"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent rounded-lg flex items-end p-6">
                 <div className="text-white">
-                  <p className="font-semibold">First Trip 2014</p>
-                  <p className="text-sm opacity-90">Gunung Gede Pangrango</p>
+                  <p className="font-semibold">Ghatering Tour Mount |SuryaKencana| </p>
+                  <p className="text-sm opacity-90">Gunung Gede dan Gunung Pangrango</p>
                 </div>
               </div>
             </div>
