@@ -94,7 +94,7 @@ const Index = () => {
       name: "Ridwan Iliyas",
       role: "Outdoor Entusiast",
       rating: 4,
-      comment: "Kualiatas barang yang memuasakan harga bersahabat."
+      comment: "Kualiatas barang yang memuasakan harga bersahabat selalu kemari rental camping laundry camping alat alat selalu memuaskan"
     },
     {
       name: "Adinda Thomas",
@@ -112,13 +112,13 @@ const Index = () => {
       name: "bocil syanusi",
       role: "Marketer",
       rating: 5,
-      comment: "membutuhkan alat jumlah banyak sangat dipersiapkan dari jumlah dan kondisi baik selalu tepat memilih kerjasama dengan BCO."
+      comment: "membutuhkan alat camping naik gunung jumlah banyak sangat dipersiapkan dari jumlah dan kondisi baik selalu tepat memilih kerjasama dengan BCO."
     },
     {
       name: "Djajang Suhendar",
       role: "Organizer Komunitas",
       rating: 6,
-      comment: "abdi percaya pisan sama ini teh tak mengecewakan."
+      comment: "abdi percaya pisan sama ini teh tak mengecewakan. rental sewa alat outdoor camping jakarta terpercaya barang berkualitas"
     },
     {
       name: "Team PT. Briliant E-commerce Berjaya",
