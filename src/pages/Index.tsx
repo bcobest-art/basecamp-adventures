@@ -28,7 +28,7 @@ const Index = () => {
       description: "Sewa perlengkapan outdoor berkualitas dengan harga terjangkau, [Sewa alat camping Jakarta]",
       link: "/rental",
       features: ["Tenda dome Kap.4/5", "Carrier", "Sepatu Trekking",
-          "Sleeping Bag","Matras","Peralatan Hiking", "Kompor & Matras", "Gear Rafting"]
+          "Sleeping Bag","Matras","Peralatan Hiking", "Kompor & Matras", "Hdyropack"]
     },
     {
       icon: <ShoppingBag className="w-8 h-8" />,
@@ -232,7 +232,10 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Gear Berkualitas Tinggi</h3>
-                    <p className="text-muted-foreground">Semua peralatan dari brand ternama dan selalu dalam kondisi prima</p>
+                    <p className="text-muted-foreground">Semua peralatan dari brand ternama dan selalu dalam kondisi prima
+                    Rental alat camping , laundry alat camping, Sewa alat camping jakarta, Sewa alat outdoor jakarta,
+                    cuci alat camping jakarta, cuci alat gunung jakarta, rental alat gunung, sewa alat camping jakarta, 
+                    rental alat gunung jakarta</p>
                   </div>
                 </div>
                 
@@ -242,7 +245,7 @@ const Index = () => {
                   </div>
                   <div>
                     <h3 className="text-lg font-semibold text-foreground mb-2">Harga Terjangkau</h3>
-                    <p className="text-muted-foreground">Paket rental dan harga yang kompetitif untuk semua kalangan</p>
+                    <p className="text-muted-foreground">Paket rental dan harga yang kompetitif untuk semua kalangan, rental dan cuci alat gunung jakarta</p>
                   </div>
                 </div>
                 
